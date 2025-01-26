@@ -1,0 +1,68 @@
+/* Center the entire page using flexbox */
+body {
+    background-color:lightslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+.to {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    width: 100%; 
+    box-sizing: border-box; /* Include padding in the total width */
+    margin: 0; /* Remove any default margin */
+    position: fixed; /* Keep it fixed at the top */
+    top: 0; /* Align it to the very top */
+    left: 0; /* Align it to the very left */
+    text-align: left; /* Center-align the text */
+    font-size: 24px; /* Increase font size for visibility */
+    z-index: 1000; /
+    /* box-sizing: border-box; 
+    margin: 0;   */
+}
+
+body {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Optional, removes default padding */
+}
+#add, #deadline, #description, #taskTitle, #submitBtn {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 5px;          
+    padding: 10px;
+    font-size: 20px;
+}
+#submitBtn {
+    background-color: black;
+    color: white;
+}
+
+#hiddenElement {
+    justify-content: center;
+    display: none; 
+    width: 335px;
+    padding: 20px;
+    background-color: rgba(46, 68, 114, 0.855);
+    text-align: left;
+    margin-top: 20px;
+    /* margin-left: 30%; */
+  }
+  
+  .task {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+#hideButton {
+    display: none;
+    margin: 5px;          
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(6, 168, 25);
+}
